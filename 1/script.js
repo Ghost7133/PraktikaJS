@@ -77,7 +77,6 @@
             //Поле ввода дел//
         function inpRend(){
             let inp = document.createElement(`input`)
-            inp.value = `1`
             inp.setAttribute(`placeholder`,`Введите дело`)
             inp.style.width = `200px`
             inp.style.textAlign = `left`
